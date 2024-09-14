@@ -36,3 +36,4 @@ if connection.is_connected():
     cursor.executemany(insert_query,students_records) 
     connection.commit()
     print(f"{cursor.rowcount} records inserted into 'students' table")
+
